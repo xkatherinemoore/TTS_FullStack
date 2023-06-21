@@ -1,0 +1,189 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* HEADER FORMATTING */
+header h1 {
+    font: 54px 'Archibo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 30px;
+}
+
+.masthead {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#logo {
+    text-transform: none;
+    font-family: 'Archivo', sans-serif;
+    background-color: red;
+    color: white;
+    font-size: 48px;
+    font-weight: 200px;
+    padding: 10px;
+}
+
+.masthead nav {
+    display: inline-block;
+    text-align: center;
+}
+
+.masthead nav a {
+    padding: 0 25px;
+    font-size: 24px;
+    color: white;
+}
+
+.masthead nav a:hover {
+    background-color: red;
+    font-style: italic;    
+}
+
+.search-bar {
+    display: inline-block;
+    margin: auto;
+}
+
+.search-bar img {
+    background-color: red;
+    padding: 5px;
+    margin: 2px;
+}
+
+.masthead-links {
+    float: right;
+    color: white;
+    margin-right: 25px;
+}
+
+.masthead-links a {
+    color: white;
+    margin: 2px;
+}
+
+.masthead-links img {
+    background-color: white;
+}
+
+/* MAIN FORMATTING */
+main {
+    margin: 10px 0px;
+}
+
+h1 {
+    font: 36px 'Archibo', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+.container {
+    padding: 10px;
+    margin: 30px;
+    line-height: 1.5;
+}
+
+.center-me {
+    text-align: center;
+    margin: auto;
+}
+
+#puppy_gif {
+    width: 50%;
+    float: right;
+    margin: 20px;
+}
+/* FORMS */
+form {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    margin: 25px;
+    color: black;
+}
+
+label {
+    font: 1.5em 'Ubuntu', sans-serif;
+    font-weight: 600;
+    line-height: 2;
+    color: black;
+    display: block;
+}
+
+#contact_name, #contact_email, #contact_phone, textarea {
+    width: 90%;
+    margin: 15px auto;
+    font-size: 24px;
+    line-height: 2;
+    border-width: 2px;
+    box-shadow: 10px 5px red;
+}
+
+textarea {
+    height: 10em;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font: 36px 'Archibo', sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    text-align: center;
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 5px 10px red;
+}
+
+
+/* FOOTER FORMATTING */
+footer {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+}
+
+footer a {
+    padding: 20px;
+    margin: 5px;
+}
+
+footer a:hover {
+    font-style: italic;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 20px;
+}
